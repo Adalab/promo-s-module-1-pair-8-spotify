@@ -10,6 +10,11 @@ nav {
     padding: 5px;
 }
 
+footer {
+    height: 400px;
+    background-color: black;
+}
+
 .mybutton {
     background-color: green;
     color: white;
@@ -17,4 +22,8 @@ nav {
     border-radius: 30px;
     width: 80%;
     text-transform: uppercase;
+}
+
+.bloqueTitulo {
+    margin-bottom: 70px;
 }
