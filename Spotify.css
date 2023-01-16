@@ -1,0 +1,20 @@
+header {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    background-color: black;
+    color:white ;
+    padding: 5px;
+}
+
+.mybutton {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    width: 80%;
+    text-transform: uppercase;
+}
