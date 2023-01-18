@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .menu {
     display: flex;
     background-color: black;
@@ -6,26 +10,16 @@
     justify-content: space-between;
 }
 
-.logo {
-    width: 10%;
-    height: 5%;
-}
-
-.menuImage {
-    width: 3%;
-    height: 3%;
-}
-
 .prueba {
     display: flex;
     flex-direction: column; 
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: stretch;
+    align-items: left;
+    line-height: 35px;
     background-color: #529cf1;
     color: white;
     padding: 80px 20px 20px 20px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .title {
@@ -47,15 +41,23 @@
     font-size: 8px;
 }
 
-.body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .subtitle {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 5%;
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 80px;
+    justify-content: left;
+    align-content: left;
+    margin-bottom: 60px;
+    border: 1px solid red;  
 }
 
 .benefitTitle {
@@ -63,30 +65,12 @@
     margin-bottom: 10px;
 }
 
-.benefitImage {
-    width: 80px;
-    height: 80px;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: center;
-    margin-bottom: 70px;
-    border: 1px solid red;  
-}
-
-.image {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .benefits {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 10px;
     }
 
 .details {
