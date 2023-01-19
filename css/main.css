@@ -8,7 +8,7 @@
     z-index: 1;
 }
 
-.menu {
+.menu-movil {
     display: flex;
     background-color: black;
     color: white;
@@ -17,9 +17,7 @@
 }
 
 .menu-tablet {
-    display: flex;
-    align-content: flex-end;
-    background-color: green;
+    display: none
 }
 
 .prueba {
@@ -107,11 +105,3 @@ a {
     color: white;
 }
 
-
-
-@media screen and (min-width 768px){
-
-    .menu-tablet {
-        display: none;
-    }
-}
