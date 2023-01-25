@@ -1,0 +1,16 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.menu-movil {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.menu-tablet {
+    display: none
+}

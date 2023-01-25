@@ -1,0 +1,30 @@
+.prueba {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: left;
+    line-height: 35px;
+    background-color: #529cf1;
+    color: white;
+    padding: 80px 20px 20px 20px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.mybutton {
+    background-color: #26b758;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    width: 80%;
+    text-transform: uppercase;
+}
+
+.terms {
+    font-size: 8px;
+}
