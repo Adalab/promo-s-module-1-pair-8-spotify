@@ -14,3 +14,31 @@
 .menu-tablet {
     display: none
 }
+
+@media screen and (min-width:768px) {
+   .menu-movil {
+    display: none;
+   } 
+
+   .menu-tablet {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .menu-tablet-ul {
+        display: flex;
+    }
+
+    .menu-tablet-ul li {
+        margin-left: 8px;
+    }
+
+    .menu-tablet-ul a {
+        text-decoration: none;
+    }
+
+}
